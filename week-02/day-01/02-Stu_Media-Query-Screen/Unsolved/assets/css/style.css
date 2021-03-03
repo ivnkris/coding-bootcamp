@@ -35,5 +35,37 @@ header {
 }
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
+@media screen and (max-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+  }
+
+  .card {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  header {
+    background-color: red;
+  }
+}
 
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: stretch;
+  }
+
+  .card {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  header {
+    background-color: black;
+  }
+}
