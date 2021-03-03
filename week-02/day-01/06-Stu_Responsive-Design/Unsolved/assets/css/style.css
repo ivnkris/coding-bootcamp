@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-Answer: The content is stretched to fill up the space provided by the browser's content window.
+Answer: It defines the nav element as the flex container and enables the child elements within the nav to behave as flex-items.
 */
 nav {
   display: flex;
@@ -49,7 +49,7 @@ aside {
 /* 
 What does the flex-shrink property specify?
 What is doing here? 
-It defines how much the item shrinks relative to other flex items. With this set to 0 it won't shrink.
+It defines how much the item shrinks relative to other flex items to occupy the available space. It doesn't do anything here as the footer is not placed within a flex container.
 */
 footer {
   flex-shrink: 0;
@@ -61,7 +61,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-It defines the flex items' alignment along the main, horizontal axis.
+It defines the flex items' alignment along the main, in this case horizontal axis.
 */
 .products {
   flex: 4;
