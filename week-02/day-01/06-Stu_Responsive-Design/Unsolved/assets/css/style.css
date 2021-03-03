@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+Answer: The content is stretched to fill up the space provided by the browser's content window.
 */
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+Answer: the content would normally overflow when the screen size is too small to present all and a scroll bar would appear. When flex wrap is set the content won't overflow but will be moved to a new row instead.
 */
 main {
   display: flex;
@@ -49,7 +49,7 @@ aside {
 /* 
 What does the flex-shrink property specify?
 What is doing here? 
-TODO: Write your answer here 
+It defines how much the item shrinks relative to other flex items. With this set to 0 it won't shrink.
 */
 footer {
   flex-shrink: 0;
@@ -61,7 +61,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+It defines the flex items' alignment along the main, horizontal axis.
 */
 .products {
   flex: 4;
@@ -75,7 +75,7 @@ TODO: Write your answer here
 /* 
 What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
+It is a shorthand for flex-grow, flex-shrink and flex-basis. It keeps the elements that have a .card class at a constant 400px here. 
 */
 .card {
   border-style: solid;
@@ -100,7 +100,7 @@ TODO: Write your answer here
 /* 
 What does the flex-direction property define?
 What is it doing here? 
-TODO: Write your answer here 
+It defines the axis along which the items will be aligned, either main or cross. Here instead of displaying the items horizontally in a row, it displays them vertically as a coloumn when the screen size is smaller than 768px.
 */
 @media screen and (max-width: 768px) {
   main,
