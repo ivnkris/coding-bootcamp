@@ -47,12 +47,11 @@ footer {
 
 .product button {
   font-size: 150%;
-  align-self: center;
-  height: 10%;
 }
 
 .product-slideshow {
   display: flex;
+  align-items: center;
 }
 
 .product-image {
