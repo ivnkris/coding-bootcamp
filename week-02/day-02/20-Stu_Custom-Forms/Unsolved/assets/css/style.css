@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #b9C6ae;
+  color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
 }
@@ -86,6 +86,7 @@ button {
 }
 
 /* What does this CSS rule do? */
+/* It sets the properties of the dropdown list of the 'CSS level of expertise' form item */
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -101,23 +102,28 @@ select {
   max-width: 100%;
 }
 
-.text-input, select {
+.text-input,
+select {
   padding: 1%;
   outline: none;
-  border: 1.2px solid #b9C6ae;
+  border: 1.2px solid #b9c6ae;
 }
 
-.text-input:hover, .checkbox:hover, 
-select:hover, button:hover {
+.text-input:hover,
+.checkbox:hover,
+select:hover,
+button:hover {
   box-shadow: 0 0 5px #999;
 }
 
 /* What does this pseudo-class mean? */
+/* It applies the defined style when a user clicks or tabs into the text-input area */
 .text-input:focus {
   border-right-width: 5px;
 }
 
 /* What does this pseudo-class mean? */
+/* It selects any element with a placeholder attribute */
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -137,12 +143,14 @@ select:hover, button:hover {
 }
 
 /* What does this selector do? */
+/* It applies the properties to the checkboxes label when the checkbox is checked */
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
 /* What does this selector do? */
+/* It adds additional content to the checkboxes label when the checkbox is checked */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
