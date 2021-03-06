@@ -15,24 +15,27 @@ header {
   color: #fff;
 }
 
+h1,
+h2,
+h3 {
+  font-family: serif;
+}
+
 /* TODO: Change the heading size to 200%, give it a margin all around, and assign font family to serif */
 h1 {
   font-size: 2rem;
-  font-family: serif;
   margin: 2%;
 }
 
 /* TODO: Change the heading size to be slightly smaller than h1, give it a margin only on the top and bottom, and assign font family to serif */
 h2 {
   font-size: 1.75rem;
-  font-family: serif;
   margin: 2% 0;
 }
 
 /* TODO: Change header size to be slightly smaller than h2 and assign font family to serif */
 h3 {
   font-size: 1.5rem;
-  font-family: serif;
 }
 
 nav ul {
