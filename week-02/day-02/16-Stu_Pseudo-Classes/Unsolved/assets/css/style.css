@@ -88,12 +88,26 @@ footer {
   color: #fff;
 }
 
+.resources {
+  margin-bottom: 20px;
+}
+
 /* TODO: Add styles to display and hide the resource links */
+.resources ul {
+  display: none;
+}
+
+.resources:hover ul {
+  display: block;
+}
+
 .resources a {
+  color: maroon;
+  text-decoration: none;
 }
 
 .resources a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
