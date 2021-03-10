@@ -9,13 +9,18 @@ function comparison(expr1, expr2) {
     console.log("True✅ True✅");
   } else {
     if (expr1 && !expr2) {
-      console.log("True✅ False❌);
+      console.log("True✅ False❌");
     } else {
       if (!expr1 && expr2) {
-        console.log("False ❌ True ✅")
+        console.log("False ❌ True ✅");
       } else {
-        console.log ("False ❌ False ❌")
+        console.log("False ❌ False ❌");
       }
     }
   }
 }
+
+comparison(true, true);
+comparison(true, false);
+comparison(false, true);
+comparison(false, false);
