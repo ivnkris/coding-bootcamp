@@ -1,11 +1,11 @@
 // Write Your JavaScript Code Here
-var name = "Kris";
+let name = "Kris";
 console.log("My name is " + name + ".");
 
-var pets = 3;
+let pets = 3;
 console.log("I have " + pets + " pet(s).");
 
-var funFact = "I have 6 toes";
+let funFact = "I have 6 toes";
 console.log("Fun fact: " + funFact + ".");
 
 name = "Justyna";
