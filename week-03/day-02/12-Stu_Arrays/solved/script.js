@@ -1,5 +1,7 @@
 // WRITE YOUR CODE HERE
 let studentNames = ["John", "Jack", "Mark"];
+console.log(studentNames.length);
+
 const newName = "Jay";
 
 console.log("Welcome to the class " + studentNames[0]);
