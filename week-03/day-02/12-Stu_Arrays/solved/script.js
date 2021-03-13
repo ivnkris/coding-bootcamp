@@ -2,16 +2,16 @@
 let studentNames = ["John", "Jack", "Mark"];
 console.log(studentNames.length);
 
-const newName = "Jay";
+console.log("Welcome to the class", studentNames[0]);
+console.log("Welcome to the class", studentNames[1]);
+console.log("Welcome to the class", studentNames[2]);
 
-console.log("Welcome to the class " + studentNames[0]);
-console.log("Welcome to the class " + studentNames[1]);
-console.log("Welcome to the class " + studentNames[2]);
-
+const oldName = studentNames[0];
 studentNames.shift();
 
+const newName = "Jay";
 studentNames.unshift(newName);
 
-if (studentNames[0] === newName) {
-  console.log(studentNames[0] + " is in class");
+if (oldName !== newName) {
+  console.log(newName, "is in class");
 }
